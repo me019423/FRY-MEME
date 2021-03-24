@@ -19,7 +19,7 @@ function draw() {
   
   noStroke();
   fill("black");
-  let x1 = map(mouseX, 0, width, 236, 270);
+  let x1 = map(mouseX, 0, width, 236, 260);
   ellipse(x1, 203, 9, 9);
  // This ellipse is constrained to the 0-100 range
   //after setting withinBounds to true
